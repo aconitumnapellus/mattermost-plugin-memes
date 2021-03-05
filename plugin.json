@@ -18,6 +18,15 @@
     "settings_schema": {
         "header": "",
         "footer": "* To report an issue, make a suggestion or a contribution, [check the repository](https://github.com/mattermost/mattermost-plugin-memes).",
-        "settings": null
+        "settings": [
+           {
+                "key": "CollapseMemes",
+                "display_name": "Collapse Memes:",
+                "type": "bool",
+                "help_text": "If true, post images collapsible so. Default: Post images not collapsable",
+                "placeholder": "",
+                "default": false
+            }
+        ]
     }
 }
